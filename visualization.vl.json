@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "values": [
+      {
+        "a": "Charmander",
+        "b": 309
+      },
+      {
+        "a": "Bulbasaur",
+        "b": 318
+      },
+      {
+        "a": "Squirtle",
+        "b": 314
+      },
+      {
+        "a": "Pikachu",
+        "b": 320
+      },
+      {
+        "a": "Eevee",
+        "b": 325
+      }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "a",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 30
+      }
+    },
+    "y": {
+      "field": "b",
+      "type": "quantitative"
+    }
+  },
+  "config": {}
+}
